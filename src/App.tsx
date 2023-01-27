@@ -125,8 +125,8 @@ function App() {
           </C.LogoLink>
 
           <C.InforArea>
-            <InforItem label='Tempo' value={formatTimeElapsed(timeElapsed)} />
-            <InforItem label='Movimentos' value={(moveCount).toString()}/>
+            <InforItem label='Tempo:' value={formatTimeElapsed(timeElapsed)} />
+            <InforItem label='Movimentos:' value={(moveCount).toString()}/>
           </C.InforArea>
 
           <Button label="Reiniciar" icon={RestartIcon} onClick={resetAndCreateGrid} />

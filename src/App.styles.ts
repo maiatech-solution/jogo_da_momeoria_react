@@ -1,13 +1,15 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 100%;
-    max-width: 750px;
-    margin: auto;
+    width: 100%;    
     display: flex;
-    padding: 50px 0;
-
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap:5em;
+    background-color: #191919;
     @media (max-width: 750px){
+        padding: 2em 0;
         flex-direction: column;
     }
 `;
@@ -39,7 +41,6 @@ export const InforArea = styled.div`
 `;
 
 export const GridArea = styled.div`
-    flex: 1;
     display: flex;
     justify-content: flex-end;
     @media (max-width: 750px){
@@ -53,7 +54,7 @@ export const Grid = styled.div`
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
-
+    height: 20%;
     @media (max-width:750px){
         grid-template-columns: repeat(3,1fr);
     }

@@ -7,11 +7,11 @@ export const Container = styled.div`
 
 export const Label = styled.div`
     fonte-size: 15px;
-    color: #6a7b8d;
+    color: white;
 `;
 
 export const Value = styled.div`
     font-size: 37px;
     font-weight: bold;
-    color: #101c40;
+    color: #1550ff;
 `;
